@@ -238,15 +238,14 @@ ws-icon-default = " "
 
 format = <label-state>
 
-label-focused = •
+label-focused = 
 label-focused-background = ${colors.background}
-label-focused-underline= ${colors.foreground-alt}
 label-focused-padding = 2
 label-focused-foreground =  ${colors.third}
 
 label-occupied = 
 label-occupied-padding = 2
-label-occupied-foreground =  ${colors.third}
+label-occupied-foreground =  ${colors.foreground}
 label-occupied-background = ${colors.background}
 
 label-urgent = 
@@ -255,7 +254,7 @@ label-urgent-foreground = ${colors.alert}
 label-urgent-background = ${colors.background}
 label-urgent-underline = ${colors.alert}
 
-label-empty = 
+label-empty = •
 label-empty-foreground = ${colors.foreground}
 label-empty-padding = 2
 label-empty-background = ${colors.background}
